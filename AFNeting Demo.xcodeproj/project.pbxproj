@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023CA90C1C7ABB40001C2CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA90B1C7ABB40001C2CE4 /* main.m */; };
+		023CA90F1C7ABB40001C2CE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA90E1C7ABB40001C2CE4 /* AppDelegate.m */; };
+		023CA9121C7ABB40001C2CE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA9111C7ABB40001C2CE4 /* ViewController.m */; };
+		023CA9151C7ABB40001C2CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023CA9131C7ABB40001C2CE4 /* Main.storyboard */; };
+		023CA9171C7ABB40001C2CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023CA9161C7ABB40001C2CE4 /* Assets.xcassets */; };
+		023CA91A1C7ABB40001C2CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023CA9181C7ABB40001C2CE4 /* LaunchScreen.storyboard */; };
+		023CA9251C7ABB40001C2CE4 /* AFNeting_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA9241C7ABB40001C2CE4 /* AFNeting_DemoTests.m */; };
+		023CA9301C7ABB40001C2CE4 /* AFNeting_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA92F1C7ABB40001C2CE4 /* AFNeting_DemoUITests.m */; };
+		023CA94E1C7AEF2E001C2CE4 /* NSDictionary+JsonString.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA9491C7AEF2E001C2CE4 /* NSDictionary+JsonString.m */; };
+		023CA94F1C7AEF2E001C2CE4 /* NSDictionary+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA94B1C7AEF2E001C2CE4 /* NSDictionary+SafeAccess.m */; };
+		023CA9501C7AEF2E001C2CE4 /* NSString+DictionaryValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA94D1C7AEF2E001C2CE4 /* NSString+DictionaryValue.m */; };
+		023CA9531C7AEFDE001C2CE4 /* KKD_NetWorkAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA9521C7AEFDE001C2CE4 /* KKD_NetWorkAPI.m */; };
+		023CA9561C7AF45E001C2CE4 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA9551C7AF45E001C2CE4 /* NSObject+Common.m */; };
+		023CA95C1C7B024F001C2CE4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 023CA9591C7B024F001C2CE4 /* SVProgressHUD.bundle */; };
+		023CA95D1C7B024F001C2CE4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA95B1C7B024F001C2CE4 /* SVProgressHUD.m */; };
+		023CA9601C7B028A001C2CE4 /* ComAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA95F1C7B028A001C2CE4 /* ComAPI.m */; };
+		023CA9681C7B041A001C2CE4 /* JDStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA9631C7B041A001C2CE4 /* JDStatusBarNotification.m */; };
+		023CA9691C7B041A001C2CE4 /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA9651C7B041A001C2CE4 /* JDStatusBarStyle.m */; };
+		023CA96A1C7B041A001C2CE4 /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA9671C7B041A001C2CE4 /* JDStatusBarView.m */; };
+		023CA96D1C7B04A5001C2CE4 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA96C1C7B04A5001C2CE4 /* UIColor+expanded.m */; };
+		023CA9761C7B0A07001C2CE4 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA9751C7B0A07001C2CE4 /* UIImage+Common.m */; };
+		023CA9791C7B1BFA001C2CE4 /* KKD_NetAPIMannager.m in Sources */ = {isa = PBXBuildFile; fileRef = 023CA9781C7B1BFA001C2CE4 /* KKD_NetAPIMannager.m */; };
+		A2395F0C4B08BB1FD9CE1FB3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F724456AA7745931BC49FA71 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		023CA9211C7ABB40001C2CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 023CA8FF1C7ABB40001C2CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 023CA9061C7ABB40001C2CE4;
+			remoteInfo = "AFNeting Demo";
+		};
+		023CA92C1C7ABB40001C2CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 023CA8FF1C7ABB40001C2CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 023CA9061C7ABB40001C2CE4;
+			remoteInfo = "AFNeting Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023CA9071C7ABB40001C2CE4 /* AFNeting Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFNeting Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		023CA90B1C7ABB40001C2CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		023CA90D1C7ABB40001C2CE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		023CA90E1C7ABB40001C2CE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		023CA9101C7ABB40001C2CE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		023CA9111C7ABB40001C2CE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		023CA9141C7ABB40001C2CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		023CA9161C7ABB40001C2CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		023CA9191C7ABB40001C2CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		023CA91B1C7ABB40001C2CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023CA9201C7ABB40001C2CE4 /* AFNeting DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFNeting DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		023CA9241C7ABB40001C2CE4 /* AFNeting_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNeting_DemoTests.m; sourceTree = "<group>"; };
+		023CA9261C7ABB40001C2CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023CA92B1C7ABB40001C2CE4 /* AFNeting DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFNeting DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		023CA92F1C7ABB40001C2CE4 /* AFNeting_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNeting_DemoUITests.m; sourceTree = "<group>"; };
+		023CA9311C7ABB40001C2CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023CA9481C7AEF2E001C2CE4 /* NSDictionary+JsonString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JsonString.h"; sourceTree = "<group>"; };
+		023CA9491C7AEF2E001C2CE4 /* NSDictionary+JsonString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JsonString.m"; sourceTree = "<group>"; };
+		023CA94A1C7AEF2E001C2CE4 /* NSDictionary+SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeAccess.h"; sourceTree = "<group>"; };
+		023CA94B1C7AEF2E001C2CE4 /* NSDictionary+SafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeAccess.m"; sourceTree = "<group>"; };
+		023CA94C1C7AEF2E001C2CE4 /* NSString+DictionaryValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DictionaryValue.h"; sourceTree = "<group>"; };
+		023CA94D1C7AEF2E001C2CE4 /* NSString+DictionaryValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DictionaryValue.m"; sourceTree = "<group>"; };
+		023CA9511C7AEFDE001C2CE4 /* KKD_NetWorkAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKD_NetWorkAPI.h; sourceTree = "<group>"; };
+		023CA9521C7AEFDE001C2CE4 /* KKD_NetWorkAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKD_NetWorkAPI.m; sourceTree = "<group>"; };
+		023CA9541C7AF45E001C2CE4 /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
+		023CA9551C7AF45E001C2CE4 /* NSObject+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Common.m"; sourceTree = "<group>"; };
+		023CA9571C7AF5F3001C2CE4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		023CA9591C7B024F001C2CE4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		023CA95A1C7B024F001C2CE4 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		023CA95B1C7B024F001C2CE4 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		023CA95E1C7B028A001C2CE4 /* ComAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComAPI.h; sourceTree = "<group>"; };
+		023CA95F1C7B028A001C2CE4 /* ComAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComAPI.m; sourceTree = "<group>"; };
+		023CA9621C7B041A001C2CE4 /* JDStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarNotification.h; sourceTree = "<group>"; };
+		023CA9631C7B041A001C2CE4 /* JDStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarNotification.m; sourceTree = "<group>"; };
+		023CA9641C7B041A001C2CE4 /* JDStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarStyle.h; sourceTree = "<group>"; };
+		023CA9651C7B041A001C2CE4 /* JDStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarStyle.m; sourceTree = "<group>"; };
+		023CA9661C7B041A001C2CE4 /* JDStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarView.h; sourceTree = "<group>"; };
+		023CA9671C7B041A001C2CE4 /* JDStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarView.m; sourceTree = "<group>"; };
+		023CA96B1C7B04A5001C2CE4 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		023CA96C1C7B04A5001C2CE4 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		023CA9741C7B0A07001C2CE4 /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		023CA9751C7B0A07001C2CE4 /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		023CA9771C7B1BFA001C2CE4 /* KKD_NetAPIMannager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKD_NetAPIMannager.h; sourceTree = "<group>"; };
+		023CA9781C7B1BFA001C2CE4 /* KKD_NetAPIMannager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKD_NetAPIMannager.m; sourceTree = "<group>"; };
+		0268B52F6CC16E3B3161D2EF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D38466BB2754956D68EDF952 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F724456AA7745931BC49FA71 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		023CA9041C7ABB40001C2CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2395F0C4B08BB1FD9CE1FB3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023CA91D1C7ABB40001C2CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023CA9281C7ABB40001C2CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023CA8FE1C7ABB40001C2CE4 = {
+			isa = PBXGroup;
+			children = (
+				023CA9091C7ABB40001C2CE4 /* AFNeting Demo */,
+				023CA9231C7ABB40001C2CE4 /* AFNeting DemoTests */,
+				023CA92E1C7ABB40001C2CE4 /* AFNeting DemoUITests */,
+				023CA9081C7ABB40001C2CE4 /* Products */,
+				26EC64CDE1EA0E1DB075EDAF /* Pods */,
+				C287A1DE0694689A9BECA32F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		023CA9081C7ABB40001C2CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				023CA9071C7ABB40001C2CE4 /* AFNeting Demo.app */,
+				023CA9201C7ABB40001C2CE4 /* AFNeting DemoTests.xctest */,
+				023CA92B1C7ABB40001C2CE4 /* AFNeting DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		023CA9091C7ABB40001C2CE4 /* AFNeting Demo */ = {
+			isa = PBXGroup;
+			children = (
+				023CA9441C7AEE43001C2CE4 /* Vendor */,
+				023CA9401C7AEE3E001C2CE4 /* Util */,
+				023CA93F1C7AEE35001C2CE4 /* Controllers */,
+				023CA90D1C7ABB40001C2CE4 /* AppDelegate.h */,
+				023CA90E1C7ABB40001C2CE4 /* AppDelegate.m */,
+				023CA9101C7ABB40001C2CE4 /* ViewController.h */,
+				023CA9111C7ABB40001C2CE4 /* ViewController.m */,
+				023CA9131C7ABB40001C2CE4 /* Main.storyboard */,
+				023CA9161C7ABB40001C2CE4 /* Assets.xcassets */,
+				023CA9181C7ABB40001C2CE4 /* LaunchScreen.storyboard */,
+				023CA91B1C7ABB40001C2CE4 /* Info.plist */,
+				023CA90A1C7ABB40001C2CE4 /* Supporting Files */,
+			);
+			path = "AFNeting Demo";
+			sourceTree = "<group>";
+		};
+		023CA90A1C7ABB40001C2CE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				023CA90B1C7ABB40001C2CE4 /* main.m */,
+				023CA9571C7AF5F3001C2CE4 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		023CA9231C7ABB40001C2CE4 /* AFNeting DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				023CA9241C7ABB40001C2CE4 /* AFNeting_DemoTests.m */,
+				023CA9261C7ABB40001C2CE4 /* Info.plist */,
+			);
+			path = "AFNeting DemoTests";
+			sourceTree = "<group>";
+		};
+		023CA92E1C7ABB40001C2CE4 /* AFNeting DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				023CA92F1C7ABB40001C2CE4 /* AFNeting_DemoUITests.m */,
+				023CA9311C7ABB40001C2CE4 /* Info.plist */,
+			);
+			path = "AFNeting DemoUITests";
+			sourceTree = "<group>";
+		};
+		023CA93F1C7AEE35001C2CE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		023CA9401C7AEE3E001C2CE4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				023CA9411C7AEE3E001C2CE4 /* Category */,
+				023CA9421C7AEE3E001C2CE4 /* Common */,
+				023CA9431C7AEE3E001C2CE4 /* Network */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		023CA9411C7AEE3E001C2CE4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				023CA96B1C7B04A5001C2CE4 /* UIColor+expanded.h */,
+				023CA96C1C7B04A5001C2CE4 /* UIColor+expanded.m */,
+				023CA9481C7AEF2E001C2CE4 /* NSDictionary+JsonString.h */,
+				023CA9491C7AEF2E001C2CE4 /* NSDictionary+JsonString.m */,
+				023CA94A1C7AEF2E001C2CE4 /* NSDictionary+SafeAccess.h */,
+				023CA94B1C7AEF2E001C2CE4 /* NSDictionary+SafeAccess.m */,
+				023CA94C1C7AEF2E001C2CE4 /* NSString+DictionaryValue.h */,
+				023CA94D1C7AEF2E001C2CE4 /* NSString+DictionaryValue.m */,
+				023CA9541C7AF45E001C2CE4 /* NSObject+Common.h */,
+				023CA9551C7AF45E001C2CE4 /* NSObject+Common.m */,
+				023CA9741C7B0A07001C2CE4 /* UIImage+Common.h */,
+				023CA9751C7B0A07001C2CE4 /* UIImage+Common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		023CA9421C7AEE3E001C2CE4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				023CA95E1C7B028A001C2CE4 /* ComAPI.h */,
+				023CA95F1C7B028A001C2CE4 /* ComAPI.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		023CA9431C7AEE3E001C2CE4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				023CA9511C7AEFDE001C2CE4 /* KKD_NetWorkAPI.h */,
+				023CA9521C7AEFDE001C2CE4 /* KKD_NetWorkAPI.m */,
+				023CA9771C7B1BFA001C2CE4 /* KKD_NetAPIMannager.h */,
+				023CA9781C7B1BFA001C2CE4 /* KKD_NetAPIMannager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		023CA9441C7AEE43001C2CE4 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				023CA9611C7B041A001C2CE4 /* JDStatusBarNotification */,
+				023CA9581C7B024F001C2CE4 /* SVProgressHUD */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		023CA9581C7B024F001C2CE4 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				023CA9591C7B024F001C2CE4 /* SVProgressHUD.bundle */,
+				023CA95A1C7B024F001C2CE4 /* SVProgressHUD.h */,
+				023CA95B1C7B024F001C2CE4 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		023CA9611C7B041A001C2CE4 /* JDStatusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				023CA9621C7B041A001C2CE4 /* JDStatusBarNotification.h */,
+				023CA9631C7B041A001C2CE4 /* JDStatusBarNotification.m */,
+				023CA9641C7B041A001C2CE4 /* JDStatusBarStyle.h */,
+				023CA9651C7B041A001C2CE4 /* JDStatusBarStyle.m */,
+				023CA9661C7B041A001C2CE4 /* JDStatusBarView.h */,
+				023CA9671C7B041A001C2CE4 /* JDStatusBarView.m */,
+			);
+			path = JDStatusBarNotification;
+			sourceTree = "<group>";
+		};
+		26EC64CDE1EA0E1DB075EDAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D38466BB2754956D68EDF952 /* Pods.debug.xcconfig */,
+				0268B52F6CC16E3B3161D2EF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C287A1DE0694689A9BECA32F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F724456AA7745931BC49FA71 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		023CA9061C7ABB40001C2CE4 /* AFNeting Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023CA9341C7ABB40001C2CE4 /* Build configuration list for PBXNativeTarget "AFNeting Demo" */;
+			buildPhases = (
+				9F311A056DCF29C0F38B26B0 /* Check Pods Manifest.lock */,
+				023CA9031C7ABB40001C2CE4 /* Sources */,
+				023CA9041C7ABB40001C2CE4 /* Frameworks */,
+				023CA9051C7ABB40001C2CE4 /* Resources */,
+				273117D45231A73414CD4AB4 /* Embed Pods Frameworks */,
+				F9D7A71E50C300677CBA7EC0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFNeting Demo";
+			productName = "AFNeting Demo";
+			productReference = 023CA9071C7ABB40001C2CE4 /* AFNeting Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		023CA91F1C7ABB40001C2CE4 /* AFNeting DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023CA9371C7ABB40001C2CE4 /* Build configuration list for PBXNativeTarget "AFNeting DemoTests" */;
+			buildPhases = (
+				023CA91C1C7ABB40001C2CE4 /* Sources */,
+				023CA91D1C7ABB40001C2CE4 /* Frameworks */,
+				023CA91E1C7ABB40001C2CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				023CA9221C7ABB40001C2CE4 /* PBXTargetDependency */,
+			);
+			name = "AFNeting DemoTests";
+			productName = "AFNeting DemoTests";
+			productReference = 023CA9201C7ABB40001C2CE4 /* AFNeting DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		023CA92A1C7ABB40001C2CE4 /* AFNeting DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023CA93A1C7ABB40001C2CE4 /* Build configuration list for PBXNativeTarget "AFNeting DemoUITests" */;
+			buildPhases = (
+				023CA9271C7ABB40001C2CE4 /* Sources */,
+				023CA9281C7ABB40001C2CE4 /* Frameworks */,
+				023CA9291C7ABB40001C2CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				023CA92D1C7ABB40001C2CE4 /* PBXTargetDependency */,
+			);
+			name = "AFNeting DemoUITests";
+			productName = "AFNeting DemoUITests";
+			productReference = 023CA92B1C7ABB40001C2CE4 /* AFNeting DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		023CA8FF1C7ABB40001C2CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zyg;
+				TargetAttributes = {
+					023CA9061C7ABB40001C2CE4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					023CA91F1C7ABB40001C2CE4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 023CA9061C7ABB40001C2CE4;
+					};
+					023CA92A1C7ABB40001C2CE4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 023CA9061C7ABB40001C2CE4;
+					};
+				};
+			};
+			buildConfigurationList = 023CA9021C7ABB40001C2CE4 /* Build configuration list for PBXProject "AFNeting Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 023CA8FE1C7ABB40001C2CE4;
+			productRefGroup = 023CA9081C7ABB40001C2CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				023CA9061C7ABB40001C2CE4 /* AFNeting Demo */,
+				023CA91F1C7ABB40001C2CE4 /* AFNeting DemoTests */,
+				023CA92A1C7ABB40001C2CE4 /* AFNeting DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		023CA9051C7ABB40001C2CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023CA91A1C7ABB40001C2CE4 /* LaunchScreen.storyboard in Resources */,
+				023CA9171C7ABB40001C2CE4 /* Assets.xcassets in Resources */,
+				023CA9151C7ABB40001C2CE4 /* Main.storyboard in Resources */,
+				023CA95C1C7B024F001C2CE4 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023CA91E1C7ABB40001C2CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023CA9291C7ABB40001C2CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		273117D45231A73414CD4AB4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F311A056DCF29C0F38B26B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9D7A71E50C300677CBA7EC0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		023CA9031C7ABB40001C2CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023CA9681C7B041A001C2CE4 /* JDStatusBarNotification.m in Sources */,
+				023CA9761C7B0A07001C2CE4 /* UIImage+Common.m in Sources */,
+				023CA9791C7B1BFA001C2CE4 /* KKD_NetAPIMannager.m in Sources */,
+				023CA9601C7B028A001C2CE4 /* ComAPI.m in Sources */,
+				023CA9561C7AF45E001C2CE4 /* NSObject+Common.m in Sources */,
+				023CA9121C7ABB40001C2CE4 /* ViewController.m in Sources */,
+				023CA96A1C7B041A001C2CE4 /* JDStatusBarView.m in Sources */,
+				023CA90F1C7ABB40001C2CE4 /* AppDelegate.m in Sources */,
+				023CA90C1C7ABB40001C2CE4 /* main.m in Sources */,
+				023CA9531C7AEFDE001C2CE4 /* KKD_NetWorkAPI.m in Sources */,
+				023CA95D1C7B024F001C2CE4 /* SVProgressHUD.m in Sources */,
+				023CA9501C7AEF2E001C2CE4 /* NSString+DictionaryValue.m in Sources */,
+				023CA96D1C7B04A5001C2CE4 /* UIColor+expanded.m in Sources */,
+				023CA9691C7B041A001C2CE4 /* JDStatusBarStyle.m in Sources */,
+				023CA94F1C7AEF2E001C2CE4 /* NSDictionary+SafeAccess.m in Sources */,
+				023CA94E1C7AEF2E001C2CE4 /* NSDictionary+JsonString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023CA91C1C7ABB40001C2CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023CA9251C7ABB40001C2CE4 /* AFNeting_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023CA9271C7ABB40001C2CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023CA9301C7ABB40001C2CE4 /* AFNeting_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		023CA9221C7ABB40001C2CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 023CA9061C7ABB40001C2CE4 /* AFNeting Demo */;
+			targetProxy = 023CA9211C7ABB40001C2CE4 /* PBXContainerItemProxy */;
+		};
+		023CA92D1C7ABB40001C2CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 023CA9061C7ABB40001C2CE4 /* AFNeting Demo */;
+			targetProxy = 023CA92C1C7ABB40001C2CE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		023CA9131C7ABB40001C2CE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023CA9141C7ABB40001C2CE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		023CA9181C7ABB40001C2CE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023CA9191C7ABB40001C2CE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		023CA9321C7ABB40001C2CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		023CA9331C7ABB40001C2CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		023CA9351C7ABB40001C2CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38466BB2754956D68EDF952 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNeting Demo/PrefixHeader.pch";
+				INFOPLIST_FILE = "AFNeting Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkd.wild.AFNeting-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		023CA9361C7ABB40001C2CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0268B52F6CC16E3B3161D2EF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFNeting Demo/PrefixHeader.pch";
+				INFOPLIST_FILE = "AFNeting Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkd.wild.AFNeting-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		023CA9381C7ABB40001C2CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AFNeting DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkd.wild.AFNeting-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNeting Demo.app/AFNeting Demo";
+			};
+			name = Debug;
+		};
+		023CA9391C7ABB40001C2CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AFNeting DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkd.wild.AFNeting-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNeting Demo.app/AFNeting Demo";
+			};
+			name = Release;
+		};
+		023CA93B1C7ABB40001C2CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AFNeting DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkd.wild.AFNeting-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AFNeting Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		023CA93C1C7ABB40001C2CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AFNeting DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kkd.wild.AFNeting-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AFNeting Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		023CA9021C7ABB40001C2CE4 /* Build configuration list for PBXProject "AFNeting Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023CA9321C7ABB40001C2CE4 /* Debug */,
+				023CA9331C7ABB40001C2CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		023CA9341C7ABB40001C2CE4 /* Build configuration list for PBXNativeTarget "AFNeting Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023CA9351C7ABB40001C2CE4 /* Debug */,
+				023CA9361C7ABB40001C2CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		023CA9371C7ABB40001C2CE4 /* Build configuration list for PBXNativeTarget "AFNeting DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023CA9381C7ABB40001C2CE4 /* Debug */,
+				023CA9391C7ABB40001C2CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		023CA93A1C7ABB40001C2CE4 /* Build configuration list for PBXNativeTarget "AFNeting DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023CA93B1C7ABB40001C2CE4 /* Debug */,
+				023CA93C1C7ABB40001C2CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 023CA8FF1C7ABB40001C2CE4 /* Project object */;
+}
