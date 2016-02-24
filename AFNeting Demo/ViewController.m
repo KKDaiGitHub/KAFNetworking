@@ -27,6 +27,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [self refreshAdlist];
+    NSLog(@",,,,,,,,,,up...");
 }
 
 - (void)sendRequest{
